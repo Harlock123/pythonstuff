@@ -22,6 +22,11 @@ REDDARK = (128, 0, 0)
 BLUEDARK = (0, 0, 128)
 GREENDARK = (0,128,0)
 
+YELLOWDARKDARK = (80, 80, 0)
+REDDARKDARK = (80, 0, 0)
+BLUEDARKDARK = (0, 0, 80)
+GREENDARKDARK = (0,80,0)
+
 
 BLACK = (0, 0, 0)
 
@@ -47,6 +52,11 @@ balls = [
         'color': YELLOWDARK
     },
     {
+        'pos': [WIDTH // 2 - 12, HEIGHT // 2],
+        'speed': [INITIAL_SPEED, INITIAL_SPEED],
+        'color': YELLOWDARKDARK
+    },
+    {
         'pos': [WIDTH // 2 + 50, HEIGHT // 2],
         'speed': [-INITIAL_SPEED, -INITIAL_SPEED],
         'color': RED
@@ -55,6 +65,11 @@ balls = [
         'pos': [WIDTH // 2 + 25, HEIGHT // 2],
         'speed': [-INITIAL_SPEED, -INITIAL_SPEED],
         'color': REDDARK
+    },
+    {
+        'pos': [WIDTH // 2 + 12, HEIGHT // 2],
+        'speed': [-INITIAL_SPEED, -INITIAL_SPEED],
+        'color': REDDARKDARK
     },
     {
         'pos': [WIDTH // 2, HEIGHT // 2 - 50],
@@ -67,6 +82,11 @@ balls = [
         'color': BLUEDARK
     },
     {
+        'pos': [WIDTH // 2, HEIGHT // 2 - 12],
+        'speed': [INITIAL_SPEED, -INITIAL_SPEED],
+        'color': BLUEDARKDARK
+    },
+    {
         'pos': [WIDTH // 2 - 50, HEIGHT // 2 - 50],
         'speed': [-INITIAL_SPEED, INITIAL_SPEED],
         'color': GREEN
@@ -75,6 +95,11 @@ balls = [
         'pos': [WIDTH // 2 - 25, HEIGHT // 2 - 25],
         'speed': [-INITIAL_SPEED, INITIAL_SPEED],
         'color': GREENDARK
+    },
+    {
+        'pos': [WIDTH // 2 - 12, HEIGHT // 2 - 12],
+        'speed': [-INITIAL_SPEED, INITIAL_SPEED],
+        'color': GREENDARKDARK
     }
 ]
 
